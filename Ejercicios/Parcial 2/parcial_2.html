@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Plataformna de notas</title>
+</head>
+<body background="Lag.gif">
+	
+    <center>
+	<h1>Plataformna de notas</h1>
+	<h2>Estos son los arreglos de Juan Amortegui</h2>
+	<h3>Las notas del estudiante</h3>
+	<h4>Ten encuenta que las notas tienen porcentaje</h4>
+	<select>
+		<option value=" Pacho " required>Codigo 001
+		<option value=" Pacha " required>Codigo 002
+		<option value=" Juan " required>Codigo 003
+		<option value=" Felipe " required>Codigo 004
+		<option value=" Laura " required>Codigo 005
+		<option value=" Juanes " required>Codigo 006
+		<option value=" Javier " required>Codigo 007
+		<option value=" Pedro " required>Codigo 008
+		<option value=" Jesus " required>Codigo 009
+		<option value=" Camilo " required>Codigo 010
+	</select>
+	<script src="Arreglos2.js"></script>
+    <div>
+    	<button id="Nostrar notas" onclick="Ocultar notas">
+    		
+    	</button>
+    <h5>Aun puedes pasar crack</h5>
+    </div>
+
+    <form>
+ Nota en Historia:<br>
+ <input type="text" id="t1">
+ <br>
+ Nota en Matematicas:<br>
+ <input type="text" id="t2">
+ <br>
+ Nota en Etica:<br>
+ <input type="text" id="t3">
+ <br> 
+ Nota en Programacion:<br>
+ <input type="text" id="t4">
+ <br> 
+ Nota en Logica:<br>
+ <input type="text" id="t5">
+ <br><br>
+ <input type="button" value="Calcular Pormedio" onclick="Calcular();">
+</form> 
+<p id="promedio"></p>
+</body>
+<script>
+ function Calcular() {
+ var vr1 = document.getElementById('t1').value;
+ var vr2 = document.getElementById('t2').value;
+ var vr3 = document.getElementById('t3').value;
+ var vr4 = document.getElementById('t4').value;
+ var vr5 = document.getElementById('t5').value;
+ var p = (parseFloat(vr1)+parseFloat(vr2)+parseFloat(vr3)+parseFloat(vr4)+parseFloat(vr5))/5;
+ document.getElementById('promedio').innerHTML = "Tu promedio es:" + p;
+ }
+</script>
+<h6>Grande crack aun puedes</h6>
+    </center>
+
+</body>
+</html>

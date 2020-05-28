@@ -1,0 +1,60 @@
+html {
+	font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+	background-color: #32036A;
+}
+
+.container {
+	max-width: 1200px;
+	height: auto;
+	background-color: #000000;
+	margin: 5% auto;
+	padding-bottom: 1rem;
+	
+}
+
+.form__top {
+	width: 100%;
+	text-align: center;
+	padding: 2rem 0 1rem;
+	border-top: solid .4rem #3E079C;
+	margin-bottom: 1rem;
+}
+
+.form__top h2 {
+	font-weight: bold;
+	color: #665CDF;
+	font-size: 18px;
+}
+
+h2 span {
+	color: #9260CE;
+}
+
+h3  {
+	width: 100%;
+	text-align: center;
+	padding: 2rem 0 1rem;
+	color:  #9260CE;
+	margin-bottom: 1rem;
+}
+
+h4  {
+	width: 100%;
+	text-align: center;
+	padding: 2rem 0 1rem;
+	color:  #665CDF;
+	margin-bottom: 1rem;
+}
+
+h5  {
+	width: 100%;
+	text-align: center;
+	padding: 2rem 0 1rem;
+	color:  #9260CE;
+	margin-bottom: 1rem;
+}
+
